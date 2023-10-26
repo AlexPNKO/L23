@@ -4,11 +4,10 @@
 .menu {
   display: flex;
   height: 3em;
-  margin: 0;
+  margin: 0 0 0 3em;
   padding: 0;
   align-items: center;
 
   &__item {
-    margin-left: 3em;
   }
 }
