@@ -18,10 +18,14 @@
     }
     &_active {
       color: yellow;
+      &.submenu:hover {
+        display: block;
+      }
     }
   }
 }
 .submenu {
+  display: none;
   margin: 0;
   padding: 0;
   list-style-type: none;
