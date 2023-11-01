@@ -51,7 +51,7 @@ html {
   visibility: hidden;
 }
 .header .submenu__item {
-  padding: 0 8px 0 8px;
+  padding: 0 8px;
 }
 .header .submenu__item:hover {
   color: #000;
