@@ -25,4 +25,23 @@ span {
   border-radius: 4px;
 }
 
+@media screen and (min-width: 900px) {
+  .content {
+    display: flex;
+  }
+  div {
+    flex: 1 0;
+  }
+}
+@media screen and (min-width: 600px) {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  div {
+    width: 300px;
+    flex-grow: 1;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

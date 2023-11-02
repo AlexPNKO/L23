@@ -21,3 +21,23 @@ span {
   border-radius: 4px;
 }
 @import "layout.scss";
+
+@include for-large {
+  .content {
+    display: flex;
+  }
+  div {
+    flex: 1 0;
+  }
+}
+
+@include for-medium {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  div {
+    width: 300px;
+    flex-grow: 1;
+  }
+}
